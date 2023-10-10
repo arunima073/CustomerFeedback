@@ -1,0 +1,4 @@
+from app1 import app1,db 
+app.app_context().push()
+db.create_all()
+exit()
